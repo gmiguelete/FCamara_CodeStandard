@@ -1,0 +1,19 @@
+{
+    "name": "fcamara/code-standard",
+    "description": "FCamara Engineering Code Standard",
+    "type": "phpcodesniffer-standard",
+    "license": "proprietary",
+    "require": {
+        "magento/magento-coding-standard": "@stable",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "dealerdirect/phpcodesniffer-composer-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FCamara\\": "FCamara/"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="FCamara">
+    <description>Tests conformance to the FCamara PHP code standard.</description>
+    <arg name="extensions" value="php,phtml,graphqls/GraphQL"/>
+    <rule ref="Magento2"/>
+
+    <rule ref="FCamara.PHP.FileHeader">
+        <severity>5</severity>
+        <type>warning</type>
+    </rule>
+    <rule ref="FCamara.PHP.InterceptorSeeAnnotation">
+        <severity>5</severity>
+        <type>warning</type>
+    </rule>
+</ruleset>
